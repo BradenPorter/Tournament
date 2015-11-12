@@ -1,0 +1,18 @@
+Requirments to run my program:
+-You will need to have python 2, vagrant, and psql installed on any linux OS or linux VM
+https://www.python.org/downloads/
+https://www.vagrantup.com/
+http://www.postgresql.org/download/
+https://my.vmware.com/web/vmware/downloads
+http://www.ubuntu.com/download
+
+Steps to run my program:
+-install what necessary programs are mentioned above
+-boot linux
+-start vagrant: vagrant up
+-after downloading the zip, unzip tournament.zip
+-navigate to the newly created tournament directory in terminal: cd tournament
+-run psql: psql
+-import tournament.sql to setup the database and tables: \i tournament.sql
+-exit psql: \q
+-run tournament_test.py: python tournament_test.py
